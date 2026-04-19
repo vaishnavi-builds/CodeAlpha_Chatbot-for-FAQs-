@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAQ Chatbot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="chat-wrapper">
+
+<div class="chat-header">
+🤖 FAQ Assistant
+</div>
+
+<div id="chatbox" class="chat-body"></div>
+
+<div class="chat-footer">
+<input 
+type="text" 
+id="userInput" 
+placeholder="Type your question..."
+onkeypress="handleKey(event)"
+>
+<button onclick="sendMessage()">Send</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
